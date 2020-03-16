@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "training-first-app",
+      "public": "dist/training-first-app",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
