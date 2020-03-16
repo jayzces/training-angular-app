@@ -1,11 +1,5 @@
 {
-  "targets": {
-    "training-angular-app-55639": {
-      "hosting": {
-        "training-first-app": [
-          "training-angular-app-55639"
-        ]
-      }
-    }
+  "projects": {
+    "default": "training-angular-app-55639"
   }
 }
